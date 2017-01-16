@@ -1,25 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 
 <head>
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 	<title>DevMtin</title>
 </head>
 
-<body>
+<body ng-controller="myController">
+	<section class="navBar">  		<!-- Nav Bar Section -->
 
-	<section>  		<!-- Nav Bar Section -->
-		
+		<div class="search">
+			<img src="./images/Icons/Search.svg" alt="Search Button" / />
+		</div>
+		<div class="backArrow">
+			<img src="./images/Icons/Back-Arrow.svg" alt="">
+		</div>
+		<div class="title">
+			<h2>DevMountain</h2>
+		</div>
+		<div class="menu">
+			<img src="./images/Icons/Ham.svg" alt="">
+		</div>
+
 	</section>
 
-	<section>			<!-- Main Body Section -->
+	<section class="main">			<!-- Main Body Section -->
+		<section class="outline"> <!-- Left column of main container -->
 
+		<div class="name">
+			Name
+		</div>
+		</section>
+
+		<section class="outline right"> <!-- Right column of main container -->
+
+
+		<div class="grayArrow">
+
+		</div>
+		<div class="greenArrow">
+
+		</div>
+
+		</section>
 	</section>
 
-	<section>			<!-- Footer - Bottom Nav Bar -->
+	<section class="footer">			<!-- Footer - Bottom Nav Bar -->
 
+		<div class="view-friends">
+			View Friends
+		</div>
+
+		<div class="find-friends">
+			Find Friends
+		</div>
+
+		<div class="update-profile">
+			Update Profile
+		</div>
 	</section>
 
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+	<script src="./js/app.js"></script>
+	<script src="./js/myController.js"></script>
 </body>
 </html>

@@ -1,0 +1,99 @@
+.* {
+
+}
+.outline{
+    flex: 1;
+
+}
+
+body {
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px gray solid;
+}
+.title {
+    height: 50px;
+    align-self: flex-start;
+}
+h2 {
+    font-family: 'Lora', serif;
+    color: #272727;
+    font-size: 16.8px;
+    line-height: 25px;
+}
+
+.search {
+    padding-left: 10px;
+    display: none;
+}
+.backArrow {
+
+}
+.menu {
+
+}
+
+                    /* Main Classes */
+
+.main {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 500px;
+}
+.right {
+    position: relative;
+}
+.grayArrow {
+  width: 0;
+  height: 0;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  border-bottom: 326.5px solid gray;
+  transform: rotateZ(5deg);
+  position: absolute;
+  top: 20px;
+  left: 15px;
+}
+.greenArrow {
+  width: 0;
+  height: 0;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  border-bottom: 326.5px solid green;
+  transform: rotateZ(-70deg);
+  position: absolute;
+  bottom: 52px;
+  right: 33px;
+}
+
+                    /* Footer Classes */
+.footer {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding: 0 20px;
+  border-top: 1px solid gray;
+}
+
+.view-friends {
+
+}
+.find-friends {
+
+}
+.update-profile {
+
+}
