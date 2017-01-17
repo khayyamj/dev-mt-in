@@ -58,22 +58,24 @@ h2 {
   height: 0;
   border-left: 175px solid transparent;
   border-right: 175px solid transparent;
-  border-bottom: 326.5px solid gray;
+  border-bottom: 300px solid gray;
   transform: rotateZ(5deg);
   position: absolute;
-  top: 20px;
+  top: 46px;
   left: 15px;
 }
-.greenArrow {
-  width: 0;
-  height: 0;
-  border-left: 175px solid transparent;
-  border-right: 175px solid transparent;
-  border-bottom: 326.5px solid green;
-  transform: rotateZ(-70deg);
-  position: absolute;
-  bottom: 52px;
-  right: 33px;
+
+.polygon {
+	width: 350px;
+	height: 350px;
+	background: rgb(133, 253, 243);
+	clip-path: polygon(63% 100%, 0 35%, 100% 20%);
+	background-image: url("https://s-media-cache-ak0.pinimg.com/564x/1e/05/8e/1e058ebda44db69e4f443e8576840305.jpg");
+	background-size: 350px;
+	background-repeat: no-repeat;
+    background-position: top;
+    position: absolute;
+    bottom: 25px;
 }
 
                     /* Footer Classes */
@@ -87,13 +89,28 @@ h2 {
   padding: 0 20px;
   border-top: 1px solid gray;
 }
+.footer:active {
+    border-bottom: #B0F5F2;
+}
 
 .view-friends {
 
 }
+.view-friends:active{
+    border-bottom: #B0F5F2;
+}
 .find-friends {
 
+}.view-friends:active{
+    border-bottom: #B0F5F2;
 }
 .update-profile {
 
+}.view-friends:active{
+    border-bottom: #B0F5F2;
+}
+
+.profileInput {
+    flex: 1;
+    
 }
